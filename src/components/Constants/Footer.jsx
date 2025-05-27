@@ -4,9 +4,10 @@ import emailImage from '../../images/email.png';
 import phoneImage from '../../images/call.png';
 import logoimage from "../../images/logo-image.png";
 import mapImage from '../../images/maps-and-flags.png';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
-  const { theme } = useTheme(); // Access the current theme
+  const { theme } = useTheme();
 
   return (
     <div className={`mt-8 w-screen ${theme === 'dark' ? 'bg-black' : 'bg-white'}`}>
@@ -21,14 +22,14 @@ const Footer = () => {
           </p>
         </div>
         <div className="sm:ml-6 mb-2 sm:mt-0 mx-4 sm:mx-0">
-          <a href="/explore" className="block">
+          <Link to="/explore" className="block">
             <h1 className="relative px-12 rounded-md py-[2px] md:py-[6px] font-inter text-xl text-black bg-white sm:mt-[55px] group transition-all duration-300 mx-auto sm:mr-[50px]">
               <span className="absolute inset-0 w-full h-full bg-black dark:bg-black transform scale-x-0 group-hover:scale-x-100 transition-all duration-500 origin-left"></span>
               <span className="relative z-10 group-hover:text-white dark:group-hover:text-white transition-colors duration-300">
                 Explore →
               </span>
             </h1>
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -38,9 +39,9 @@ const Footer = () => {
           <div className={`flex flex-col sm:flex-row justify-between gap-8 ${theme === 'dark' ? 'text-gray-400' : 'text-gray-600'}`}>
             {/* Left Section */}
             <div className="flex flex-col space-y-2 sm:flex-1">
-              <a href='/'>
+              <Link to="/">
               <img className='w-[110px]' src={logoimage} alt="logo" />
-              </a>
+              </Link>
               <p>
                 Amairah’s PG is located in the city’s finest and trendiest place (Sector 18), Opp. Orient Craft factory. Amairah’s PG was built with an aim to make guests as comfortable as they stay at their homes. #Best PG House in Gurgaon.
               </p>
@@ -48,38 +49,38 @@ const Footer = () => {
             {/* Middle Section (Pages) */}
             <div className="flex flex-col space-y-2 sm:flex-1">
               <h4 className="font-semibold text-black dark:text-white">Pages</h4>
-              <a
+              <Link
                 className="relative hover:text-orange-500 dark:hover:text-white transition-colors duration-300 group"
-                href='/'
+               to="/"
               >
                 Home
                 <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-orange-300 dark:bg-white transition-all duration-300 group-hover:w-full"></span>
                 <span className="ml-2 inline-block opacity-0 group-hover:opacity-100 transform transition-opacity duration-300">→</span>
-              </a>
-              <a
+              </Link>
+              <Link
                 className="relative hover:text-orange-500 dark:hover:text-white transition-colors duration-300 group"
-                href='/about'
+                to="/about"
               >
                 About
                 <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-orange-300 dark:bg-white transition-all duration-300 group-hover:w-full"></span>
                 <span className="ml-2 inline-block opacity-0 group-hover:opacity-100 transform transition-opacity duration-300">→</span>
-              </a>
-              <a
+              </Link>
+              <Link
                 className="relative hover:text-orange-500 dark:hover:text-white transition-colors duration-300 group"
-                href='/contact'
+                to="/contact"
               >
                 Contact
                 <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-orange-300 dark:bg-white transition-all duration-300 group-hover:w-full"></span>
                 <span className="ml-2 inline-block opacity-0 group-hover:opacity-100 transform transition-opacity duration-300">→</span>
-              </a>
-              <a
+              </Link>
+              <Link
                 className="relative hover:text-orange-500 dark:hover:text-white transition-colors duration-300 group"
-                href='/explore'
+                to="/explore"
               >
                 Explore
                 <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-orange-300 dark:bg-white transition-all duration-300 group-hover:w-full"></span>
                 <span className="ml-2 inline-block opacity-0 group-hover:opacity-100 transform transition-opacity duration-300">→</span>
-              </a>
+              </Link>
             </div>
 
             {/* Right Section (Contact Info) */}
