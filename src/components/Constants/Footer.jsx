@@ -49,38 +49,38 @@ const Footer = () => {
             {/* Middle Section (Pages) */}
             <div className="flex flex-col space-y-2 sm:flex-1">
               <h4 className="font-semibold text-black dark:text-white">Pages</h4>
-              <Link
+              <a
                 className="relative hover:text-orange-500 dark:hover:text-white transition-colors duration-300 group"
-               to="/"
+               href="/"
               >
                 Home
                 <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-orange-300 dark:bg-white transition-all duration-300 group-hover:w-full"></span>
                 <span className="ml-2 inline-block opacity-0 group-hover:opacity-100 transform transition-opacity duration-300">→</span>
-              </Link>
-              <Link
+              </a>
+              <a
                 className="relative hover:text-orange-500 dark:hover:text-white transition-colors duration-300 group"
-                to="/about"
+                href="/about"
               >
                 About
                 <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-orange-300 dark:bg-white transition-all duration-300 group-hover:w-full"></span>
                 <span className="ml-2 inline-block opacity-0 group-hover:opacity-100 transform transition-opacity duration-300">→</span>
-              </Link>
-              <Link
+              </a>
+              <a
                 className="relative hover:text-orange-500 dark:hover:text-white transition-colors duration-300 group"
-                to="/contact"
+                href="/contact"
               >
                 Contact
                 <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-orange-300 dark:bg-white transition-all duration-300 group-hover:w-full"></span>
                 <span className="ml-2 inline-block opacity-0 group-hover:opacity-100 transform transition-opacity duration-300">→</span>
-              </Link>
-              <Link
+              </a>
+              <a
                 className="relative hover:text-orange-500 dark:hover:text-white transition-colors duration-300 group"
-                to="/explore"
+                href="/explore"
               >
                 Explore
                 <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-orange-300 dark:bg-white transition-all duration-300 group-hover:w-full"></span>
                 <span className="ml-2 inline-block opacity-0 group-hover:opacity-100 transform transition-opacity duration-300">→</span>
-              </Link>
+              </a>
             </div>
 
             {/* Right Section (Contact Info) */}
