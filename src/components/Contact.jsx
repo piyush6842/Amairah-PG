@@ -64,7 +64,7 @@ const Contact = () => {
                   <div className="flex-1">
                     <a href='tel:7814073920' className="block">
                       <p className="font-medium ml-3 sm:ml-6 text-sm sm:text-base">Call Us</p>
-                      <p className={`ml-3 sm:ml-6 text-xs sm:text-sm ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>+91 70149 17952</p>
+                      <p className={`ml-3 sm:ml-6 text-xs sm:text-sm ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>+91 70149 17952 / 70153 73796</p>
                     </a>
                   </div>
                 </div> 
