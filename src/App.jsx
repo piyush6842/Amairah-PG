@@ -1,5 +1,5 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import ScrollToTopButton from './components/Constants/ScrollToTopButton';
 import Footer from './components/Constants/Footer';
 import Header from './components/Constants/Header';
@@ -19,9 +19,22 @@ import TourAdv from './components/LifeAtPG/TourAdv';
 import ErrorPage from './components/Constants/ErrorPage';
 import Explore from './components/ExplorePG/Explore';
 
+
+const ScrollToTopInsideApp = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [location.pathname]);
+
+  return null;
+};
+
 function App() {
   return (
     <Router>
+      <ScrollToTopInsideApp /> 
+
       <div className="min-h-screen bg-gray-100 dark:bg-black">
         <Header />
         <div className="py-20">
