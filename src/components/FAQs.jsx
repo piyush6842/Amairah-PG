@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useTheme } from './Constants/ThemeContext';
 import { initializeAOS, refreshAOS, animations } from './Constants/AnimationUtils';
-
+import {Link} from 'react-router-dom';
 const FAQs = () => {
   const { theme } = useTheme();
   const [activeIndex, setActiveIndex] = useState(null);
