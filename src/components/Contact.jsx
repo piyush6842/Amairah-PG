@@ -64,7 +64,7 @@ const Contact = () => {
                   <div className="flex-1">
                     <a href='tel:7814073920' className="block">
                       <p className="font-medium ml-3 sm:ml-6 text-sm sm:text-base">Call Us</p>
-                      <p className={`ml-3 sm:ml-6 text-xs sm:text-sm ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>+91 78140 73920</p>
+                      <p className={`ml-3 sm:ml-6 text-xs sm:text-sm ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>+91 70149 17952</p>
                     </a>
                   </div>
                 </div> 
@@ -74,7 +74,7 @@ const Contact = () => {
                   <div className="flex-1">
                     <a href='mailto:info@mypgwebsite.com' className="block">
                       <p className="font-medium ml-3 sm:ml-6 text-sm sm:text-base">Email Us</p>
-                      <p className={`ml-3 sm:ml-6 text-xs sm:text-sm ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>info@mypgwebsite.com</p>
+                      <p className={`ml-3 sm:ml-6 text-xs sm:text-sm ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>amairahpg@gmail.com</p>
                     </a>
                   </div>
                 </div>
