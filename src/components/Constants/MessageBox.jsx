@@ -29,7 +29,7 @@ const MessageButton = () => {
       >
         {/* WhatsApp */}
         <a
-          href="https://wa.me/7814073920"
+          href="https://wa.me/7015373796"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-all"
@@ -40,7 +40,7 @@ const MessageButton = () => {
 
         {/* Phone */}
         <a
-          href="tel:7814073920"
+          href="tel:7015373796"
           className="bg-gray-500 text-white p-4 rounded-full shadow-lg hover:bg-gray-600 transition-all"
           aria-label="Phone"
         >
