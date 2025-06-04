@@ -111,7 +111,7 @@ const Footer = () => {
                 className="relative hover:text-orange-500 dark:hover:text-white transition-colors duration-300 group"
               >
                 <img className='w-4 h-4 inline mr-2 lg:mx-2 dark:bg-white dark:w-5 dark:h-5 dark:p-1 dark:rounded-full' src={phoneImage} alt="Phone" />
-                +91 78140 73920
+                +91 70153 73796
                 <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-orange-300 dark:bg-white transition-all duration-300 group-hover:w-full"></span>
                 <span className="ml-2 inline-block opacity-0 group-hover:opacity-100 transform transition-opacity duration-300">→</span>
               </a>
@@ -120,7 +120,7 @@ const Footer = () => {
                 className="relative hover:text-orange-500 dark:hover:text-white transition-colors duration-300 group"
               >
                 <img className="w-4 h-4 inline mr-2 lg:mx-2 dark:bg-white dark:w-5 dark:h-5 dark:p-1 dark:rounded-full" src={emailImage} alt="Email" />
-                info@mypgwebsite.com
+                amairahpg@gmail.com
                 <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-orange-300 dark:bg-white transition-all duration-300 group-hover:w-full"></span>
                 <span className="ml-2 inline-block opacity-0 group-hover:opacity-100 transform transition-opacity duration-300">→</span>
               </a>
