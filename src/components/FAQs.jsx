@@ -88,12 +88,12 @@ const FAQs = () => {
           <p className={`mb-4 ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>
             Still have questions? Contact us for more information.
           </p>
-          <a 
-            href="/contact" 
+          <Link 
+            to="/contact" 
             className={`inline-block px-8 py-3 rounded-full font-bold text-white ${theme === 'dark' ? 'bg-orange-600 hover:bg-orange-700' : 'bg-orange-500 hover:bg-orange-600'} transition-colors`}
           >
             Contact Us
-          </a>
+          </Link>
         </div>
       </div>
     </div>
