@@ -62,9 +62,9 @@ const Contact = () => {
                 <div className="cursor-pointer flex items-center border border-orange-400 p-3 sm:p-4 rounded-lg shadow-sm hover:shadow-xl transition-all duration-300">
                   <FaPhoneAlt className="w-8 h-8 sm:w-12 sm:h-12" color="orange" />
                   <div className="flex-1">
-                    <a href='tel:7814073920' className="block">
+                    <a href='tel:7015373796' className="block">
                       <p className="font-medium ml-3 sm:ml-6 text-sm sm:text-base">Call Us</p>
-                      <p className={`ml-3 sm:ml-6 text-xs sm:text-sm ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>+91 70149 17952 / 70153 73796</p>
+                      <p className={`ml-3 sm:ml-6 text-xs sm:text-sm ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>+91 70153 73796</p>
                     </a>
                   </div>
                 </div> 
@@ -72,7 +72,7 @@ const Contact = () => {
                 <div className="cursor-pointer flex items-center border border-orange-400 p-3 sm:p-4 rounded-lg shadow-sm hover:shadow-xl transition-all duration-300">
                   <FaEnvelope className="w-8 h-8 sm:w-12 sm:h-12" color="orange" />
                   <div className="flex-1">
-                    <a href='mailto:info@mypgwebsite.com' className="block">
+                    <a href='mailto:amairahpg@gmail.com' className="block">
                       <p className="font-medium ml-3 sm:ml-6 text-sm sm:text-base">Email Us</p>
                       <p className={`ml-3 sm:ml-6 text-xs sm:text-sm ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>amairahpg@gmail.com</p>
                     </a>
