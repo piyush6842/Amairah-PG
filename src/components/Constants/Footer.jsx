@@ -107,7 +107,7 @@ const Footer = () => {
                 </a>
               </p>
               <a
-                href='tel:+917814073920'
+                href='tel:+917015373796'
                 className="relative hover:text-orange-500 dark:hover:text-white transition-colors duration-300 group"
               >
                 <img className='w-4 h-4 inline mr-2 lg:mx-2 dark:bg-white dark:w-5 dark:h-5 dark:p-1 dark:rounded-full' src={phoneImage} alt="Phone" />
@@ -116,7 +116,7 @@ const Footer = () => {
                 <span className="ml-2 inline-block opacity-0 group-hover:opacity-100 transform transition-opacity duration-300">→</span>
               </a>
               <a
-                href="mailto:info@mypgwebsite.com"
+                href="mailto:amairahpg@gmail.com"
                 className="relative hover:text-orange-500 dark:hover:text-white transition-colors duration-300 group"
               >
                 <img className="w-4 h-4 inline mr-2 lg:mx-2 dark:bg-white dark:w-5 dark:h-5 dark:p-1 dark:rounded-full" src={emailImage} alt="Email" />
