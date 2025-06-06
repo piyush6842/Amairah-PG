@@ -26,7 +26,7 @@ const FAQs = () => {
     },
     {
       question: "What are the meal timings and arrangements?",
-      answer: "We serve three meals daily: Breakfast (7-9 AM), Lunch (12-2 PM), and Dinner (7-9 PM). Our rotating menu offers a variety of nutritious meals, with options for dietary restrictions available upon request."
+      answer: "We serve three meals daily: Breakfast (8-10 AM), Lunch (12.30-2 PM), and Dinner (8-10 PM). Our rotating menu offers a variety of nutritious meals, with options for dietary restrictions available upon request."
     },
     {
       question: "What is the room sharing policy?",
