@@ -10,6 +10,10 @@ import IpshitaImage from "../images/GoogleReviewImages/GoogleReviewIpshita.jpg";
 import DevImage from "../images/GoogleReviewImages/GoogleReviewDev.jpg";
 import ManpreetImage from "../images/GoogleReviewImages/GoogleReviewManpreet.jpg";
 import ArshImage from "../images/GoogleReviewImages/GoogleReviewArsh.jpg";
+import PiyushImage from "../images/GoogleReviewImages/PiyushImage.png";
+import SinghImage from "../images/GoogleReviewImages/GoogleReviewSarthak.jpg";
+import YogeshImage from "../images/GoogleReviewImages/YogeshImage.png";
+
 
 const reviews = [
   {
@@ -59,6 +63,30 @@ const reviews = [
     rating: 5,
     review:
       "I've been staying at Amairah PG for the past few days, and it's been a home-like experience. The food is excellent, and the environment is very hygienic and well-maintained.",
+  },
+  {
+    id: 7,
+    name: "Piyush Mittal",
+    photo: PiyushImage,
+    rating: 5,
+    review:
+      "I had a wonderful experience at Amairah PG. The PG provides all the essential facilities, including a lift, which adds to the convenience. The food feels just like home, the cleanliness is top-notch.Overall, it's a great place to stay, and I’ve already recommended it to my friends.",
+  },
+  {
+    id: 8,
+    name: "Yohesh Katkade",
+    photo: YogeshImage,
+    rating: 5,
+    review:
+      "Food🍲 is awesome compare to rest of PG. also neet and clean maintain rooms, prime location to nearest corporate office.",
+  },
+  {
+    id: 9,
+    name: "Manish Kumar Singh",
+    photo: SinghImage,
+    rating: 5,
+    review:
+      "I had a great experience staying at Amairah PG. The place was well-maintained, clean, and had all the necessary amenities for a comfortable stay.",
   }
 ];
 
@@ -88,7 +116,7 @@ const ReviewCarousel = () => {
 
   const variants = {
     enter: (direction) => ({
-      x: direction === 1 ? 300 : -300,
+      x: direction === 1 ? 1000 : -1000,
       opacity: 0,
     }),
     center: {
@@ -96,12 +124,15 @@ const ReviewCarousel = () => {
       opacity: 1,
     },
     exit: (direction) => ({
-      x: direction === 1 ? -300 : 300,
+      x: direction === 1 ? -1000 : 1000,
       opacity: 0,
     }),
   };
 
-  const transition = { duration: 0.8, ease: "easeInOut" };
+  const transition = {
+    duration: 1,
+    ease: "easeInOut"
+  };
 
   const getReviewsToDisplay = () => {
     // On mobile, show only one review
@@ -145,7 +176,6 @@ const ReviewCarousel = () => {
               <div
                 key={review.id}
                 className={`w-full md:w-1/2 p-4 sm:p-6 rounded-lg shadow-lg flex flex-col ${theme === 'dark' ? 'bg-black' : 'bg-white'}`}
-                data-aos="fade-up"
               >
                 <div className="flex items-center mb-3 sm:mb-4">
                   <img
