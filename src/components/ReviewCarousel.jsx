@@ -11,7 +11,7 @@ import DevImage from "../images/GoogleReviewImages/GoogleReviewDev.jpg";
 import ManpreetImage from "../images/GoogleReviewImages/GoogleReviewManpreet.jpg";
 import ArshImage from "../images/GoogleReviewImages/GoogleReviewArsh.jpg";
 import PiyushImage from "../images/GoogleReviewImages/PiyushImage.png";
-import SinghImage from "../images/GoogleReviewImages/GoogleReviewSarthak.jpg";
+import SinghImage from "../images/GoogleReviewImages/SinghImage.png";
 import YogeshImage from "../images/GoogleReviewImages/YogeshImage.png";
 
 
